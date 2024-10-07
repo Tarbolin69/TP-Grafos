@@ -1,30 +1,39 @@
 package Grafos;
 
 public class Nodo {
-
     /*
-    A Viedma
-    B Ushuaia
-    C Santiago del Estero
-    D Santa Rosa
-    E Santa Fe
-    F San Salvador de Jujuy
-    G San Miguel de Tucumán
-    H San Luis
-    I San Juan
-    J San Fernando del Valle de Catamarca
-    K Salta
-    L Río Gallegos
-    M Resistencia
-    N Rawson
-    O Posadas
-    P Paraná
-    Q Neuquén
-    R Mendoza
-    S La Rioja
-    T La Plata
-    U Formosa
-    V Corrientes
-    W Córdoba
+    1 A Viedma
+    2 B Ushuaia
+    3 C Santiago del Estero
+    4 D Santa Rosa
+    5 E Santa Fe
+    6 F San Salvador de Jujuy
+    7 G San Miguel de Tucumán
+    8 H San Luis
+    9 I San Juan
+    10 J San Fernando del Valle de Catamarca
+    11 K Salta
+    12 L Río Gallegos
+    13 M Resistencia
+    14 N Rawson
+    15 O Posadas
+    16 P Paraná
+    17 Q Neuquén
+    18 R Mendoza
+    19 S La Rioja
+    20 T La Plata
+    21 U Formosa
+    22 V Corrientes
+    23 W Córdoba
+    24 X BSAS
      */
+    private int vertice;
+    private int aristaPeso;
+    private Nodo siguiente = null;
+
+    public Nodo (int vertice, int aristaPeso) {
+        this.vertice = vertice;
+        this.aristaPeso = aristaPeso;
+        this.siguiente = null;
+    }
 }
