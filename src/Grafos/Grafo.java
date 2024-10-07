@@ -2,28 +2,29 @@ package Grafos;
 
 public class Grafo {
     /*
-    Provincia de Río Negro, Viedma
-    Provincia de Tierra del Fuego, Ushuaia
-    Provincia de Santiago del Estero, Santiago del Estero
-    Provincia de La Pampa, Santa Rosa
-    Provincia de Santa Fe, Santa Fe
-    Provincia de Jujuy, San Salvador de Jujuy
-    Provincia de Tucumán, San Miguel de Tucumán
-    Provincia de San Luis, San Luis
-    Provincia de San Juan, San Juan
-    Provincia de Catamarca, San Fernando del Valle de Catamarca
-    Provincia de Salta, Salta
-    Provincia de Santa Cruz, Río Gallegos
-    Provincia del Chaco, Resistencia
-    Provincia del Chubut, Rawson
-    Provincia de Misiones, Posadas
-    Provincia de Entre Ríos, Paraná
-    Provincia del Neuquén, Neuquén
-    Provincia de Mendoza, Mendoza
-    Provincia de La Rioja, La Rioja
-    Provincia de Buenos Aires, La Plata
-    Provincia de Formosa, Formosa
-    Provincia de Corrientes, Corrientes
-    Provincia de Córdoba, Córdoba
+       A B C D E F G H I J K L M N O P Q R S T U V W
+    A {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    B {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    C {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    D {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    E {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    F {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    G {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    H {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    I {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    J {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    K {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    L {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    M {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    N {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    O {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    P {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    Q {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    R {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    S {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    T {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    U {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    V {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+    W {0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
      */
 }
