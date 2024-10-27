@@ -31,9 +31,13 @@ public class Nodo {
     private int aristaPeso;
     private Nodo siguiente = null;
 
-    public Nodo (int vertice, int aristaPeso) {
+    public Nodo (int vertice) {
+        // Nombre/Numero de Nodo
         this.vertice = vertice;
+    }
+
+    public void setSiguiente(Nodo siguiente, int aristaPeso) {
+        this.siguiente = siguiente;
         this.aristaPeso = aristaPeso;
-        this.siguiente = null;
     }
 }
