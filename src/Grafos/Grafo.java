@@ -52,7 +52,7 @@ public class Grafo {
         for (Nodo nodo : nodos) {
             System.out.println(nodo.getNombre() + ":");
             for (Flecha flecha : nodo.getFlechas()) {
-                System.out.println("* " + nodo.getNombre() + " -> " + flecha.getNodoDestino().getNombre() + ": " + flecha.getAristaPeso() + "hs");
+                System.out.println(" * " + nodo.getNombre() + " -> " + flecha.getNodoDestino().getNombre() + ": " + flecha.getAristaPeso() + "hs");
             }
         }
     }
