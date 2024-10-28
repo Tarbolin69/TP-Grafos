@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3895f6f-81d0-413e-adf3-e69142bf37d2" name="Changes" comment="cosas">
+    <list default="true" id="d3895f6f-81d0-413e-adf3-e69142bf37d2" name="Changes" comment="Grafo adyacencia terminado">
+      <change afterPath="$PROJECT_DIR$/src/Grafos/Flecha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Grafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grafos/Grafo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Grafos/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grafos/Nodo.java" afterDir="false" />
@@ -34,7 +35,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Tarbolin69/TP-Grafos.git",
-    "accountId": "e71e9849-be45-459b-bd62-9dc2d4980d73"
+    "accountId": "4ec6863b-4681-4a15-8ae4-f8b3e4b98fe2"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -46,26 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -78,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728318047286</updated>
       <workItem from="1728318048222" duration="6696000" />
-      <workItem from="1730070538717" duration="4638000" />
+      <workItem from="1730141662563" duration="6461000" />
     </task>
     <task id="LOCAL-00001" summary="Consigna inicial">
       <option name="closed" value="true" />
@@ -112,15 +114,7 @@
       <option name="project" value="LOCAL" />
       <updated>1728321392841</updated>
     </task>
-    <task id="LOCAL-00005" summary="cosas">
-      <option name="closed" value="true" />
-      <created>1730071683772</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1730071683773</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +136,6 @@
     <MESSAGE value="Capitales de las provincias" />
     <MESSAGE value="Diseño grafo" />
     <MESSAGE value="Grafo adyacencia terminado" />
-    <MESSAGE value="cosas" />
-    <option name="LAST_COMMIT_MESSAGE" value="cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grafo adyacencia terminado" />
   </component>
 </project>

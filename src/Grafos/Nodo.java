@@ -1,8 +1,11 @@
 package Grafos;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Nodo {
     /*
-    1 A Viedma: {2, 8}, {4, 6}, {23, }, {24, }
+    1 A Viedma:
     2 B Ushuaia:
     3 C Santiago del Estero:
     4 D Santa Rosa:
@@ -27,17 +30,24 @@ public class Nodo {
     23 W Córdoba:
     24 X BSAS:
      */
-    private int vertice;
-    private int aristaPeso;
-    private Nodo siguiente = null;
+    private String nombre;
+    private List<Flecha> flechas;
 
-    public Nodo (int vertice) {
-        // Nombre/Numero de Nodo
-        this.vertice = vertice;
+    public Nodo (String nombre) {
+        this.nombre = nombre;
+        this.flechas = new ArrayList<>();
     }
 
-    public void setSiguiente(Nodo siguiente, int aristaPeso) {
-        this.siguiente = siguiente;
-        this.aristaPeso = aristaPeso;
+    public void addFlecha (Nodo nodoDestino, int aristaPeso) {
+        Flecha flecha = new Flecha(nodoDestino, aristaPeso);
+        this.flechas.add(flecha);
+    }
+
+    public List<Flecha> getFlechas() {
+        return flechas;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 }
