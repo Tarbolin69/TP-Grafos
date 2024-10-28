@@ -1,3 +1,5 @@
+import Grafos.Grafo;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -26,6 +28,7 @@ public class Main {
            Objectivo: Calcular camino mas corto entre BSAS y X sin ir directamente a X
          */
         int[] CIUDADES = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24};
-        int
+        int GRAFO_LARGO = CIUDADES.length;
+        Grafo grafoArgentina = new Grafo(GRAFO_LARGO);
     }
 }

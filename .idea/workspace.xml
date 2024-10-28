@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3895f6f-81d0-413e-adf3-e69142bf37d2" name="Changes" comment="Grafo adyacencia terminado">
+    <list default="true" id="d3895f6f-81d0-413e-adf3-e69142bf37d2" name="Changes" comment="cosas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Grafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grafos/Grafo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Grafos/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grafos/Nodo.java" afterDir="false" />
@@ -25,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Tarbolin69"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Tarbolin69/TP-Grafos.git",
+    "accountId": "e71e9849-be45-459b-bd62-9dc2d4980d73"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -66,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728318047286</updated>
       <workItem from="1728318048222" duration="6696000" />
-      <workItem from="1730070538717" duration="1121000" />
+      <workItem from="1730070538717" duration="4638000" />
     </task>
     <task id="LOCAL-00001" summary="Consigna inicial">
       <option name="closed" value="true" />
@@ -100,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728321392841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cosas">
+      <option name="closed" value="true" />
+      <created>1730071683772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730071683773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +142,7 @@
     <MESSAGE value="Capitales de las provincias" />
     <MESSAGE value="Diseño grafo" />
     <MESSAGE value="Grafo adyacencia terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grafo adyacencia terminado" />
+    <MESSAGE value="cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="cosas" />
   </component>
 </project>
