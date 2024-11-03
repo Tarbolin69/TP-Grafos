@@ -1,8 +1,10 @@
 import Grafos.Grafo;
+import Grafos.Nodo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -85,7 +87,11 @@ public class Main {
         cuidades.add("BSAS");
 
         Grafo grafoArgentina = new Grafo(cuidades, adyacencia);
-        // grafoArgentina.mostrarGrafo();
-        grafoArgentina.dijkstra(grafoArgentina.getNodos().getLast());
+        Map<Nodo, Integer> grafo = grafoArgentina.dijkstra(grafoArgentina.getNodos().getLast());
+
+        System.out.println("Camino mas corto desde BSAS:");
+        for (Nodo nodo : grafo.keySet()) {
+            System.out.println(nodo.getNombre() + ": " + grafo.get(nodo) + "hs");
+        }
     }
 }

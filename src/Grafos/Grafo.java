@@ -74,10 +74,6 @@ public class Grafo {
                 }
             }
         }
-        System.out.println("Camino mas corto desde BSAS" + raiz.getNombre() + ":");
-        for (Nodo nodo : distancias.keySet()) {
-            System.out.println(nodo.getNombre() + ": " + distancias.get(nodo));
-        }
         return distancias;
     }
 
