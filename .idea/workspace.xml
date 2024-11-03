@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3895f6f-81d0-413e-adf3-e69142bf37d2" name="Changes" comment="dijkstra">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d3895f6f-81d0-413e-adf3-e69142bf37d2" name="Changes" comment="arreglos">
       <change beforePath="$PROJECT_DIR$/src/Grafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grafos/Grafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <workItem from="1728318048222" duration="6696000" />
       <workItem from="1730141662563" duration="7779000" />
       <workItem from="1730663002629" duration="1178000" />
-      <workItem from="1730676746072" duration="654000" />
+      <workItem from="1730676746072" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="Consigna inicial">
       <option name="closed" value="true" />
@@ -138,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730664162072</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="arreglos">
+      <option name="closed" value="true" />
+      <created>1730677632021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730677632021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +169,7 @@
     <MESSAGE value="grafo/lista de adyacencia implementado" />
     <MESSAGE value="unos arreglos" />
     <MESSAGE value="dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="dijkstra" />
+    <MESSAGE value="arreglos" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglos" />
   </component>
 </project>

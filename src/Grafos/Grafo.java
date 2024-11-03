@@ -30,7 +30,7 @@ public class Grafo {
   23 W [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0],
   24 X [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
      */
-    private List<Nodo> nodos;
+    private final List<Nodo> nodos;
 
     public Grafo(List<String> nodoNombres, List<List<Integer>> listaAdyacencia) {
         this.nodos = new ArrayList<>();
@@ -50,23 +50,18 @@ public class Grafo {
     public Map<Nodo, Integer> dijkstra(Nodo raiz) {
         Map<Nodo, Integer> distancias = new HashMap<>();
         PriorityQueue<Nodo> cola = new PriorityQueue<>(Comparator.comparingInt(distancias::get));
-
         for (Nodo nodo : nodos) {
             distancias.put(nodo, Integer.MAX_VALUE);
         }
-
         distancias.put(raiz, 0);
         cola.add(raiz);
-
         while (!cola.isEmpty()) {
             Nodo u = cola.poll();
-
             for (Flecha flecha : u.getFlechas()) {
                 Nodo v = flecha.getNodoDestino();
                 int peso = flecha.getAristaPeso();
                 int distanciaU = distancias.get(u);
                 int distanciaV = distancias.get(v);
-
                 if (distanciaU + peso < distanciaV) {
                     cola.remove(v);
                     distancias.put(v, distanciaU + peso);
@@ -75,15 +70,6 @@ public class Grafo {
             }
         }
         return distancias;
-    }
-
-    public void mostrarGrafo() {
-        for (Nodo nodo : nodos) {
-            System.out.println(nodo.getNombre() + ":");
-            for (Flecha flecha : nodo.getFlechas()) {
-                System.out.println(" * " + nodo.getNombre() + " -> " + flecha.getNodoDestino().getNombre() + ": " + flecha.getAristaPeso() + "hs");
-            }
-        }
     }
 
     public List<Nodo> getNodos() {
