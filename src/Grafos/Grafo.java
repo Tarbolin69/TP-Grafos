@@ -1,8 +1,6 @@
 package Grafos;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class Grafo {
     /*
@@ -48,6 +46,41 @@ public class Grafo {
             }
         }
     }
+
+    public Map<Nodo, Integer> dijkstra(Nodo raiz) {
+        Map<Nodo, Integer> distancias = new HashMap<>();
+        PriorityQueue<Nodo> cola = new PriorityQueue<>(Comparator.comparingInt(distancias::get));
+
+        for (Nodo nodo : nodos) {
+            distancias.put(nodo, Integer.MAX_VALUE);
+        }
+
+        distancias.put(raiz, 0);
+        cola.add(raiz);
+
+        while (!cola.isEmpty()) {
+            Nodo u = cola.poll();
+
+            for (Flecha flecha : u.getFlechas()) {
+                Nodo v = flecha.getNodoDestino();
+                int peso = flecha.getAristaPeso();
+                int distanciaU = distancias.get(u);
+                int distanciaV = distancias.get(v);
+
+                if (distanciaU + peso < distanciaV) {
+                    cola.remove(v);
+                    distancias.put(v, distanciaU + peso);
+                    cola.add(v);
+                }
+            }
+        }
+        System.out.println("Camino mas corto desde BSAS" + raiz.getNombre() + ":");
+        for (Nodo nodo : distancias.keySet()) {
+            System.out.println(nodo.getNombre() + ": " + distancias.get(nodo));
+        }
+        return distancias;
+    }
+
     public void mostrarGrafo() {
         for (Nodo nodo : nodos) {
             System.out.println(nodo.getNombre() + ":");
@@ -55,5 +88,9 @@ public class Grafo {
                 System.out.println(" * " + nodo.getNombre() + " -> " + flecha.getNodoDestino().getNombre() + ": " + flecha.getAristaPeso() + "hs");
             }
         }
+    }
+
+    public List<Nodo> getNodos() {
+        return nodos;
     }
 }

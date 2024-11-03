@@ -85,6 +85,7 @@ public class Main {
         cuidades.add("BSAS");
 
         Grafo grafoArgentina = new Grafo(cuidades, adyacencia);
-        grafoArgentina.mostrarGrafo();
+        // grafoArgentina.mostrarGrafo();
+        grafoArgentina.dijkstra(grafoArgentina.getNodos().getLast());
     }
 }
